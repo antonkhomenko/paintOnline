@@ -1,0 +1,14 @@
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  max-width: 100vw;
+  min-height: 100vh;
+  height: 100vh;
+  background-color: $background-color;
+}
