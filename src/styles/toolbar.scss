@@ -21,6 +21,39 @@
     margin-left: 10px;
   }
 
+  .brush {
+    background: url('/src/assets/img/brush.svg') no-repeat center center;
+  }
+
+  .rect {
+    background: url('/src/assets/img/rect.svg') no-repeat center center;
+  }
+
+  .circle {
+    background: url('/src/assets/img/circle.svg') no-repeat center center;
+  }
+
+  .eraser {
+    background: url('/src/assets/img/eraser.svg') no-repeat center center;
+  }
+
+  .line {
+    background: url('/src/assets/img/line.svg') no-repeat center center;
+  }
+
+  .undo {
+    margin-left: auto;
+    background: url('/src/assets/img/undo.svg') no-repeat center center;
+  }
+
+  .redo {
+    background: url('/src/assets/img/redo.svg') no-repeat center center;
+  }
+
+  .save {
+    background: url('/src/assets/img/save.svg') no-repeat center center;
+    margin-right: 10px;
+  }
 
 }
 
