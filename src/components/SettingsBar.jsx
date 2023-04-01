@@ -12,6 +12,14 @@ const SettingsBar = () => {
                 style={{margin: '0 10px'}}
                 onChange={e => toolState.setLineWidth(e.target.value)}
             />
+
+            <label htmlFor="stroke-color">Stroke color:</label>
+            <input
+                id="stroke-color"
+                type="color"
+                style={{margin: '0 10px'}}
+                onChange={e => toolState.setStrokeColor(e.target.value)}
+            />
         </div>
     );
 };
